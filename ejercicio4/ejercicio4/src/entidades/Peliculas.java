@@ -15,7 +15,7 @@ public class Peliculas {
  
     private String titulo;
     private String director;
-    private int duracion;
+    private Integer duracion;
     
     Scanner keyb = new Scanner (System.in).useDelimiter("\n");
 
@@ -45,7 +45,7 @@ public class Peliculas {
         this.director = director;
     }
 
-    public int getDuracion() {
+    public Integer getDuracion() {
         return duracion;
     }
 
