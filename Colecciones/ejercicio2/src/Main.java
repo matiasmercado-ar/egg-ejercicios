@@ -50,7 +50,7 @@ public class Main {
         while (it.hasNext()) {
             String auxiliar = it.next();
 
-            if (!(auxiliar.equals(raza))) {
+            if (!auxiliar.equals(raza)) {
                 System.out.println("La raza "+raza+" no concuerda con lo ingresado en la lista.");
                 for (String i : lista) {
                     System.out.println(i);

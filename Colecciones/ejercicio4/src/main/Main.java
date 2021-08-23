@@ -32,7 +32,7 @@ public class Main {
             System.out.println("Desea agregar una nueva pelicula? (Y/N)");
             String aux = keyb.next().toUpperCase();
 
-            while (!(aux.equals("N") || aux.equals("Y"))) {
+            while (!aux.equals("N") && !aux.equals("Y")) {
                 System.out.println("Letra incorrecta, ingrese Y o N");
                 aux = keyb.next();
             }

@@ -43,9 +43,9 @@ public class Main {
             System.out.println("Desea agregar un nuevo alumno? (Y/N)");
             aux = keyb.next().toUpperCase();
 
-            while (!(aux.equals("N") || aux.equals("Y"))) {
+            while (!aux.equals("N") && !aux.equals("Y")) {
                 System.out.println("Letra incorrecta, ingrese Y o N");
-                aux = keyb.next();
+                aux = keyb.next().toUpperCase();
             }
             
             if (aux.equals("N")) {
